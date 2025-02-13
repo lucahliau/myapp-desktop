@@ -1,4 +1,5 @@
 // src/MyPosts.js
+/*
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
@@ -43,4 +44,4 @@ function MyPosts() {
   );
 }
 
-export default MyPosts;
+export default MyPosts;*/

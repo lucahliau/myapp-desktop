@@ -12,7 +12,7 @@ function Login() {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('https://myapp-backend-demo-4fa256f8580e.herokuapp.com/api/auth/login', {
+      const response = await axios.post('https://myapp-backend-i5fr.onrender.com/api/auth/login', {
         email,
         password
       });
@@ -51,7 +51,7 @@ function Login() {
         </div>
         <button type="submit">Login</button>
         <p>
-        Already have an account? <a href="/signup">Log In</a>
+        Don't have an account yet? <a href="/signup">Sign Up</a>
       </p>
       </form>
     </div>

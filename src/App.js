@@ -14,7 +14,6 @@ function App() {
           <Route path="/signup" element={<Signup />} />
           <Route path="/upload" element={<Upload />} />
           <Route path="/" element={<Signup />} />  {/* or redirect to login */}
-          <Route path="/myposts" element={<MyPosts />} />
         </Routes>
       </div>
     </Router>

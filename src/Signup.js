@@ -13,7 +13,7 @@ function Signup() {
   const handleSignup = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('https://myapp-backend-demo-4fa256f8580e.herokuapp.com/api/auth/signup', {
+      const response = await axios.post('https://myapp-backend-i5fr.onrender.com/api/auth/signup', {
         email,
         password,
         userType
