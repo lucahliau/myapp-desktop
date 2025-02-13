@@ -281,7 +281,7 @@ function Upload() {
       const token = localStorage.getItem('token');
 
       // Send a POST request to your backend create post endpoint.
-      const response = await axios.post(
+      await axios.post(
         'https://myapp-backend-i5fr.onrender.com/api/posts/create',
         formData,
         {
